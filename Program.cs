@@ -35,9 +35,9 @@ namespace Hamster
 
             for (double i = 0; i < 1; i += 0.2)
             {
-                weight += 0.2;               
+                weight += 0.2;
                 WriteLine($"\n {name} eats and gains weight. Weight increased by 0,2");
-                WriteLine($" {name} weight is now {Math.Round(weight, 2 )}");
+                WriteLine($" {name} weight is now {Math.Round(weight, 2)}");
 
                 if (weight >= 0.7)
                 {
@@ -52,7 +52,7 @@ namespace Hamster
                 age++;
                 lifespan -= 1;
 
-                if (lifespan == 0) break;       
+                if (lifespan == 0) break;
             }
         }
     }
@@ -68,7 +68,7 @@ namespace Hamster
         }
 
         public void PrintHamsterInfo()
-        { 
+        {
             WriteLine($" Hamster name: {name}");
             WriteLine($" Hamster age:  {age}");
             WriteLine($" Hamster weight: {weight}");
